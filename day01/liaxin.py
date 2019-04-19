@@ -21,10 +21,16 @@ def jianfa_demo(a,b):
     c=a-b
     print(c)
     return c
-def add_demo(a,b,c)
-    d=a-b+c
+def add_demo(a,b):
+    d=a+b
     print(d)
     return d
+def list(a):
+    print(a[3])
+    print(a[4])
+    print(a[2:5])
+
+
 
 
 
@@ -33,10 +39,15 @@ if __name__ == '__main__':
     # int_mode()
     # float_mode()
     # str_mode()
-    str_join()
-    c = jianfa_demo(10, 5)
-    print(c)
-    add_demo(10,2,6)
+    # str_join()
+    # c = jianfa_demo(10, 5)
+    # print(c)
+    # d = add_demo(10, 12)
+    # print(d)
+    alist=[1,2,3,4,5,6,7,8,9]
+    list(alist)
+
+
 
 
 

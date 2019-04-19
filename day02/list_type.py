@@ -11,4 +11,4 @@ def list_sel(a):
 if __name__ == '__main__':
     alist = ['a',5,'haode','10',1,2,3,4,6,20,14,69,54,21,455]
     list_sel(alist)
-    # print(alist)
+    #     # # print(alist)
