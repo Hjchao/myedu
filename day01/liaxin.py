@@ -30,6 +30,29 @@ def list(a):
     print(a[4])
     print(a[2:5])
 
+def list():
+    alist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    alist.pop()
+    print(alist)
+    alist.pop(2)
+    blist=alist[:-2]
+    print(blist)
+    alist.append(10)
+    print(alist)
+    blist=[11,12,13]
+    alist.append(blist)
+    print(alist)
+
+def list_update():
+    alist=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, [11, 12, 13]]
+    alist.append(alist[0])
+    alist[0]=alist.pop(-2)
+    print(alist)
+
+
+
+
+
 
 
 
@@ -44,8 +67,10 @@ if __name__ == '__main__':
     # print(c)
     # d = add_demo(10, 12)
     # print(d)
-    alist=[1,2,3,4,5,6,7,8,9]
-    list(alist)
+    # alist=[1,2,3,4,5,6,7,8,9]
+    # list()
+    list_update()
+
 
 
 
